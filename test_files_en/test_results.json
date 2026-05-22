@@ -1,0 +1,47 @@
+[
+  {
+    "name": "finance_report_en.txt",
+    "task_id": "c0f7526f19384e39ad1c1dd39d76e6a1",
+    "status": "succeeded",
+    "parser": "local",
+    "chars": null,
+    "error": null,
+    "summary": "2025年财务报告显示收入、净利润、研发费用和经营现金流均增长，但存在海外交付周期延长的风险。"
+  },
+  {
+    "name": "project_notice_en.html",
+    "task_id": "9b4c443cecfa4e0c8722e3f23ef031e0",
+    "status": "succeeded",
+    "parser": "local",
+    "chars": 263,
+    "error": null,
+    "summary": "Company B won a smart manufacturing platform project with a contract value of 36.8 million yuan and a delivery period of 9 months."
+  },
+  {
+    "name": "contract_summary_en.docx",
+    "task_id": "774e084f51de4bd2857464eed4f830b0",
+    "status": "succeeded",
+    "parser": "mineru_precise",
+    "chars": 554,
+    "error": null,
+    "summary": "合同甲方为上海示例科技有限公司，乙方为杭州数据智能有限公司，合同金额560万元，服务期2026年6月1日至2027年5月31日，逾期交付违约金每日0.05%，付款方式为预付30%验收后70%。"
+  },
+  {
+    "name": "growth_review_en.pptx",
+    "task_id": "fb2067275897431e8e6d3756e80ff5ad",
+    "status": "succeeded",
+    "parser": "mineru_precise",
+    "chars": 309,
+    "error": null,
+    "summary": "2025年活跃用户320万，同比增长42%；付费转化率8.6%，留存率91%。下一步优先降低推理成本、提高复杂表格解析准确率、加强异常恢复。"
+  },
+  {
+    "name": "mineru_example.pdf",
+    "task_id": "d5d07ba5d33c425c8d8e0a7a670b21c8",
+    "status": "succeeded",
+    "parser": "mineru_precise",
+    "chars": 51011,
+    "error": null,
+    "summary": "The paper develops a method to quantify changes in annual flow duration curves (FDCs) following afforestation by removing rainfall variability, using data from 10 catchments in Australia, South Africa, and New Zealand. Two response groups were identified: Group 1 shows increased zero flow days with low flows more affec"
+  }
+]

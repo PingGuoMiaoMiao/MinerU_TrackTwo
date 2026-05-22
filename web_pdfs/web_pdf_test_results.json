@@ -1,0 +1,89 @@
+[
+  {
+    "name": "arxiv_sklearn_1201_0490.pdf",
+    "task_id": "eae7138ba441466b9d9b45f2a37ff421",
+    "bytes": 101166,
+    "status": "succeeded",
+    "parser": "mineru_precise",
+    "chars": 15351,
+    "error": null,
+    "summary": "Scikit-learn is a Python module integrating a wide range of state-of-the-art machine learning algorithms for medium-scale supervised and unsupervised problems. It focuses on ease of use, performance, documentation, and API consistency, with minimal dependencies and distributed under the simplified BSD license.",
+    "quality": {
+      "test_coverage": "81% as of release 0.8",
+      "documentation": "~300 page user guide, >60 examples",
+      "code_quality_tools": "pyflakes, pep8",
+      "checks": [
+        "schema_valid",
+        "source_text_available"
+      ],
+      "confidence": 0.7,
+      "text_length": 15351
+    }
+  },
+  {
+    "name": "nasa_global_air_quality_climate_20140002242.pdf",
+    "task_id": "4fa33d6380f041f4b7b5530c1dcc9c3e",
+    "bytes": 1010375,
+    "status": "succeeded",
+    "parser": "mineru_precise",
+    "chars": 138325,
+    "error": null,
+    "summary": "The report reviews interactions between air pollutants (ozone, aerosols) and climate, focusing on near-term climate forcers (NTCFs) like methane, ozone precursors, and aerosols. It discusses radiative forcing, climate feedbacks, and future air quality projections under SRES and RCP scenarios, highlighting tradeoffs between air pollution control and climate mitigation.",
+    "quality": {
+      "completeness": "High",
+      "clarity": "High",
+      "relevance": "High",
+      "limitations": "Uncertainties in emission trajectories, climate responses, and feedbacks; RCP scenarios assume aggressive pollution reduction globally, which may not represent true uncertainty.",
+      "checks": [
+        "schema_valid",
+        "source_text_available"
+      ],
+      "confidence": 0.7,
+      "text_length": 138325
+    }
+  },
+  {
+    "name": "nasa_microgrids_extraterrestrial_habitats_20250002250.pdf",
+    "task_id": "1de7784de1cf47bea232720e1731ab53",
+    "bytes": 1025706,
+    "status": "succeeded",
+    "parser": "mineru_precise",
+    "chars": 130522,
+    "error": null,
+    "summary": "This paper reviews technologies, needs, and challenges for microgrids in extraterrestrial habitats, covering power sources, energy storage, architectures, economic aspects, and degradation mechanisms due to harsh environments. It aims to help researchers make informed decisions for developing reliable extraterrestrial power systems.",
+    "quality": {
+      "completeness": "High - covers power sources, storage, architectures, challenges, and economic aspects.",
+      "relevance": "High - directly addresses extraterrestrial microgrids for NASA's Artemis and Mars missions.",
+      "clarity": "Good - well-structured with clear sections and nomenclature.",
+      "evidence_level": "Moderate - review paper citing multiple references, but no original experimental data.",
+      "checks": [
+        "schema_valid",
+        "source_text_available"
+      ],
+      "confidence": 0.7,
+      "text_length": 130522
+    }
+  },
+  {
+    "name": "digitalocean_2023_annual_report.pdf",
+    "task_id": "538335c4f27242f49ec3399aa6312705",
+    "bytes": 6708877,
+    "status": "succeeded",
+    "parser": "mineru_precise",
+    "chars": 510976,
+    "error": null,
+    "summary": "DigitalOcean simplifies cloud computing for startups and growing digital businesses, providing mission-critical infrastructure and fully managed offerings. In 2023, revenue grew 20% to $693 million, adjusted EBITDA margin was 40%, and adjusted free cash flow doubled to $156 million. The company acquired Paperspace to enhance AI/ML capabilities and launched new products like premium CPU-optimized droplets and managed Kafka. Key risks include competition, operational challenges, and market adoptio",
+    "quality": {
+      "completeness": "high",
+      "accuracy": "high",
+      "consistency": "high",
+      "evidence_availability": "high",
+      "checks": [
+        "schema_valid",
+        "source_text_available"
+      ],
+      "confidence": 0.7,
+      "text_length": 510976
+    }
+  }
+]

@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+data/
+dist/
+test_files/
+.mineru-py312/
+local_mineru_output/
